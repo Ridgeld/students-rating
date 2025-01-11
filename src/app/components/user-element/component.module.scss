@@ -1,0 +1,47 @@
+.user-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    width: calc(100% - 42px);
+    border-radius: 20px;
+    background: #050505;
+}
+.user-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.rank{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 46px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.name{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.group{
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+.score{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}

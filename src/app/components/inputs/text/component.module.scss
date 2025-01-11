@@ -1,0 +1,19 @@
+.input{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 40px 10px 40px;
+    height: 40px;
+    width: calc(100% - 80px);
+    border: 1px solid #fff;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    background: none;
+    outline: none;
+    border-radius: 30px;
+    letter-spacing: -0.8px;
+}
+.input::placeholder{
+    color: #fff;
+}
